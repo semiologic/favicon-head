@@ -2,7 +2,7 @@
 Contributors: Tim A. Johansson, Denis de Bernardy
 Tags: semiologic
 Requires at least: 2.8
-Tested up to: 3.5.1
+Tested up to: 3.6
 Stable tag: trunk
 
 Allows to easily insert a favicon on your site.
@@ -16,6 +16,10 @@ The plugin allows to readily insert such an icon on your site.
 
 
 == Change Log ==
+
+= 1.5.2 =
+
+- WP 3.6 compat
 
 = 1.5.1 =
 
