@@ -17,6 +17,10 @@ The plugin allows to readily insert such an icon on your site.
 
 == Change Log ==
 
+= 1.5.3 =
+
+- WP 3.8 compat
+
 = 1.5.2 =
 
 - WP 3.6 compat
