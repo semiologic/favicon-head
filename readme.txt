@@ -5,6 +5,10 @@ Requires at least: 2.8
 Tested up to: 4.0
 Stable tag: trunk
 
+> *This plugin has been retired.  No further development will occur on it.*
+> Basically WordPress 4.3 now includes this functionality in the core
+
+
 Allows to easily insert a favicon on your site.
 
 
@@ -16,6 +20,10 @@ The plugin allows to readily insert such an icon on your site.
 
 
 == Change Log ==
+
+= 1.5.5 =
+
+- Development has ceased on this plugin.  Updated source and readme accordingly
 
 = 1.5.4 =
 

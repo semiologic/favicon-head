@@ -2,9 +2,9 @@
 /*
 Plugin Name: Favicon Head
 Plugin URI: http://timjoh.com/wordpress-plugin-favicon-head/
-Description: Favicon Head adds meta tags in the head of every page, specifying the location of your blog's favicon.ico.
+Description: RETIRED - Favicon Head adds meta tags in the head of every page, specifying the location of your blog's favicon.ico.
 Author: Tim A. Johansson, Denis de Bernardy
-Version: 1.5.4 fork
+Version: 1.5.5 fork
 Author URI: http://timjoh.com/
 
 Copyright 2006  Tim A. Johansson
@@ -33,6 +33,35 @@ Changelog:
 		Initial release
 
 */
+
+
+/*
+ * This plugin has been retired.  No further development will occur on it.
+ * */
+
+// Disable the plugin
+
+$active_plugins = get_option('active_plugins');
+
+if ( !is_array($active_plugins) )
+{
+	$active_plugins = array();
+}
+
+foreach ( (array) $active_plugins as $key => $plugin )
+{
+	if ( $plugin == 'favicon-head/favicon-head.php' )
+	{
+		unset($active_plugins[$key]);
+		break;
+	}
+}
+
+sort($active_plugins);
+
+update_option('active_plugins', $active_plugins);
+
+
 
 define('taj_fh_location_default', '/favicon.ico');
 define('taj_fha_location_default', '');
