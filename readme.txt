@@ -5,7 +5,6 @@ Requires at least: 2.8
 Tested up to: 4.0
 Stable tag: trunk
 
-> *This plugin has been retired.  No further development will occur on it.*
 > Basically WordPress 4.3 now includes this functionality in the core
 
 
@@ -13,6 +12,8 @@ Allows to easily insert a favicon on your site.
 
 
 == Description ==
+
+> *This plugin has been retired.  No further development will occur on it.*
 
 Favicons are the icons that display in your address bar when browsing some sites.
 
